@@ -77,8 +77,8 @@ typedef enum OMX_INDEXVENDORTYPE {
 	/** only one index for file reader component input file */
 	OMX_IndexVendorInputFilename = OMX_IndexVendorStartUnused+1,
 	OMX_IndexVendorOutputFilename,
-	OMX_IndexVendorCompPropTunnelFlags, /* Will use OMX_TUNNELSETUPTYPE structure*/
-	OMX_IndexParameterThreadsID,
+//	OMX_IndexVendorCompPropTunnelFlags, /* Will use OMX_TUNNELSETUPTYPE structure*/
+//	OMX_IndexParameterThreadsID,
 	OMX_VIDEO_CodingTheora
 } OMX_INDEXVENDORTYPE;
 
